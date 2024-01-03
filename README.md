@@ -4,11 +4,11 @@ runme:
   version: v2.0
 ---
 
-```sh {"id":"01HK6R44DQYPZ105FZ167GGH1J"}
-![Alt text](https://a.top4top.me/uploads/top4top_me3f29cc1620ec0.png)
+![Dashboard Chart](https://a.top4top.me/uploads/top4top_me3f29cc1620ec0.png)
+
 # Chart Project
 
-This project is a React-based dashboard chart component that displays data in a visually appealing way using Recharts library.
+This project is a React-based dashboard chart component that displays data in a visually appealing way using the Recharts library.
 
 ## Getting Started
 
@@ -20,12 +20,11 @@ This project is a React-based dashboard chart component that displays data in a 
 
 1. Clone the repository to your local machine:
 
+   ```bash
    git clone https://github.com/CodeArabia/Dashboard_Chart
    cd Dashboard_chart
 
-```
-
-```sh {"id":"01HK6R788BFC0AFZC80XJ046AQ"}
+```sh {"id":"01HK6SQ032Q3368PRNPJWJQ26A"}
 npm install
 ```
 
