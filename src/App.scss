@@ -1,0 +1,105 @@
+/* Add your custom styles here */
+.App {
+  display: flex;
+  flex-wrap: wrap; /* Ensure cards wrap to the next line when there is not enough space */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .dashboard-card {
+    width: calc(50% - 20px); /* Two cards per line with some spacing */
+    margin-right: 20px; /* Add margin between cards */
+    margin-bottom: 20px; /* Add margin between rows of cards */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+
+    h2 {
+      font-weight: bold;
+      
+    }
+
+    .chart-container {
+      flex: 1;
+      margin-top: 20px;
+      /* Remove the gray background behind the chart */
+      background-color: transparent;
+      padding: 10px;
+      border-radius: 8px;
+
+      /* Customize the background color of the chart */
+      .recharts-responsive-container,
+      .recharts-cartesian-grid,
+      .recharts-reference-line,
+      .recharts-tooltip {
+        background-color: transparent;
+      }
+
+      /* Customize the color and font style of the labels */
+      .recharts-label {
+        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+        fill: #666;
+        /* Remove hyphen from the labels on X and Y axes */
+        tspan {
+          display: block;
+        }
+      }
+    }
+
+    .buttons-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      button {
+        padding: 8px 12px;
+        font-size: 14px;
+        cursor: pointer;
+        border: none;
+        background-color: #f0f0f016;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+        &:hover {
+          background-color: #e0e0e0;
+        }
+      }
+    }
+  }
+
+  /* Media query for responsive layout - 1 card per row on smaller screens */
+  @media (max-width: 767px) {
+    .dashboard-card {
+      width: 100%; /* One card per row on smaller screens */
+      margin-right: 0; /* Remove margin for cards on smaller screens */
+    }
+  }
+}
+
+.card_title{
+  display: flex;
+  justify-content: center;
+}
+
+.card_amount{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ 
+}
+.card_total{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card_Percentage{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: medium;
+  margin-top:19.5px;
+  margin-left : 10px;
+  color:green;
+}
