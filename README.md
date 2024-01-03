@@ -5,6 +5,7 @@ runme:
 ---
 
 ```sh {"id":"01HK6R44DQYPZ105FZ167GGH1J"}
+![Alt text](https://a.top4top.me/uploads/top4top_me3f29cc1620ec0.png)
 # Chart Project
 
 This project is a React-based dashboard chart component that displays data in a visually appealing way using Recharts library.
@@ -21,6 +22,7 @@ This project is a React-based dashboard chart component that displays data in a 
 
    git clone https://github.com/CodeArabia/Dashboard_Chart
    cd Dashboard_chart
+
 ```
 
 ```sh {"id":"01HK6R788BFC0AFZC80XJ046AQ"}
